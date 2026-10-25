@@ -311,22 +311,22 @@ li {
 	color: white;
 	float: right;
 	margin-top: 55px;
-	margin-right: 44px;
+	margin-right: 70px;
 }
 .channelinfo {
 	font-size: 12px;
 	color: white;
 	float: right;
 	margin-top: -18px;
-	margin-right: 16px;
+	margin-right: 20px;
 	text-align: left;
 }
 .channelverified {
 	height: 14px;
 	width: 14px;
 	float: right;
-	margin-top: -44px;
-	margin-right: 29px;
+	margin-top: 24px;
+	margin-right: 57px;
 }
 .channelinfo1 {
 	font-size: 12px;

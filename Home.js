@@ -20,20 +20,23 @@ let home = document.getElementById('home');
 let music = document.getElementById('music');
 let about = document.getElementById('about');
 let contact = document.getElementById('contact');
-let policy = document.getElementById('policy'); // Added policy element
+let policy = document.getElementById('policy');
 
 var spinIn = document.querySelector('.spinIn');
 var spinOut = document.querySelector('.spinOut');
 
 navbtn.addEventListener('click', () => {
   setTimeout(() => {
-    if (contact) { contact.style.padding = '0px 15px'; contact.style.opacity = '0'; }
-    if (policy) { policy.style.padding = '0px 15px'; policy.style.opacity = '0'; } // Collapses instantly with contact
+    if (policy) { policy.style.padding = '0px 15px'; policy.style.opacity = '0'; }
   }, 0);
 
   setTimeout(() => {
+    if (contact) { contact.style.padding = '0px 15px'; contact.style.opacity = '0'; }
+  }, 60);
+
+  setTimeout(() => {
     if (about) { about.style.padding = '0px 15px'; about.style.opacity = '0'; }
-  }, 100);
+  }, 120);
 
   setTimeout(() => {
     if (music) { music.style.padding = '0px 15px'; music.style.opacity = '0'; }
@@ -82,7 +85,7 @@ navbtn1.addEventListener('click', () => {
   }, 400);
 
   setTimeout(() => {
-    if (policy) { policy.style.padding = '0px 50px'; policy.style.opacity = '1'; } // Reveals step-by-step after contact
+    if (policy) { policy.style.padding = '0px 50px'; policy.style.opacity = '1'; }
     if (navbtn1) navbtn1.style.backgroundColor = '#111111';
   }, 500);
 

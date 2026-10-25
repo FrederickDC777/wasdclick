@@ -309,7 +309,7 @@ li {
 .channel {
 	font-size: 30px;
 	color: white;
-	float: right;
+	float: left;
 	margin-top: 55px;
 	margin-left: 20px;
 }
@@ -326,7 +326,7 @@ li {
 	width: 14px;
 	float: right;
 	margin-top: 7px;
-	margin-right: 57px;
+	margin-left: 47px;
 }
 .channelinfo1 {
 	font-size: 12px;

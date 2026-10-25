@@ -311,14 +311,14 @@ li {
 	color: white;
 	float: right;
 	margin-top: 55px;
-	margin-right: 20px;
+	margin-left: 140px;
 }
 .channelinfo {
 	font-size: 12px;
 	color: white;
 	float: right;
 	margin-top: -18px;
-	margin-right: 20px;
+	margin-left: 140px;
 	text-align: left;
 }
 .channelverified {
@@ -333,7 +333,7 @@ li {
 	color: white;
 	float: right;
 	margin-top: -11px;
-	margin-right: 20px;
+	margin-left: 140px;
 	text-align: left;
 }
 .aboutPad {

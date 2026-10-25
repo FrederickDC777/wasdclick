@@ -276,7 +276,8 @@ li {
 .row {
 	width: 101.1%;
 	height: 1290px;
-  margin-left: 5%;
+  margin-left: auto;
+  margin-right: auto;
 	animation: fadeIn 1.1s;
 	position: absolute;
 	top: 92px;

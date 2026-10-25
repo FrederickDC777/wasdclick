@@ -498,7 +498,7 @@ li {
 	padding-top: 14px;
 	overflow-y: hidden;
     -ms-overflow-style: none;
-    scrollbar-height: none;
+    scrollbar-width: none;
 	text-align: left;
 	resize: none;
 	white-space: pre;

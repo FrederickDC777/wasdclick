@@ -276,12 +276,11 @@ li {
 .row {
 	width: 101.1%;
 	height: 1290px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 13%;
 	animation: fadeIn 1.1s;
 	position: absolute;
 	top: 92px;
-	z-index: 3;
+	z-index: 8;
 }
 .wasdClick {
 	color: white;
@@ -347,7 +346,7 @@ li {
 	display: inline-block;
 	float: none;
 	z-index: 3;
-	margin-top: 7px;
+	margin-top: 8px;
 	margin-bottom: 5px;
 }
 .gameTitle {

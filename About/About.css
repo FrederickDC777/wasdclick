@@ -311,13 +311,13 @@ li {
 	color: white;
 	float: right;
 	margin-top: 55px;
-	margin-left: 70px;
+	margin-left: 200px;
 }
 .channelinfo {
 	font-size: 12px;
 	color: white;
 	float: right;
-	margin-top: 70px;
+	margin-top: 10px;
 	margin-left: 140px;
 	text-align: left;
 }
@@ -325,7 +325,7 @@ li {
 	height: 14px;
 	width: 14px;
 	float: right;
-	margin-top: 40px;
+	margin-top: 7px;
 	margin-left: 77px;
 }
 .channelinfo1 {
